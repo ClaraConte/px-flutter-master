@@ -6,6 +6,9 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://artifacts.mercadolibre.com/repository/android-releases/'
+        }
     }
 
     dependencies {
@@ -18,6 +21,9 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://artifacts.mercadolibre.com/repository/android-releases/'
+        }
     }
 }
 
